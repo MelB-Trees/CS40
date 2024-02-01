@@ -1,0 +1,44 @@
+// CS40 Project 1: Files of Pix
+// README
+// Cheng Li (cli31) and Jason Wang (mwang26)
+
+
+/* Program acknowledgements:
+ *
+ *      Ange Shen for answering my questions about the file spec
+ * 
+ */
+
+
+
+/* What has been implemented correctly:
+
+ *          The program correctly implements readfile and correctly
+ *          identifies the original rows from the corrupted file
+ *          (with one exception). 
+ *
+ * 
+ */ 
+
+/* What is still missing:
+
+ *          Our program hasn't been programmed to handle char infusions
+ *          containing a '/0' char in the middle, and prematurely
+ *          finished processing the line.
+ * 
+ *          To ammeliorate this, the program will throw an uncaught
+ *          exception if the length of the rows generated for the original
+ *          file are different, which implies the presence of
+ *          this '/0' char. 
+ *
+ * 
+ */ 
+
+
+/* Time spent:
+ *
+ *      At least 20 hours
+ * 
+ */
+
+
